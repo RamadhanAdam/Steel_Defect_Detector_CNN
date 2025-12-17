@@ -1,0 +1,84 @@
+# Data & model artifacts (large files)
+data_raw/
+data_clean/
+data/interim/
+data/external/
+outputs/*.pt
+outputs/*.pkl
+outputs/*.pth
+outputs/*.h5
+outputs/*.onnx
+outputs/*.csv         
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.jsonl
+
+# Keep PNG outputs for documentation
+!outputs/*.png
+
+# ML experiment logs
+runs/
+wandb/
+mlruns/
+lightning_logs/
+.hydra/
+.mlflow/
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyo
+venv/
+env/
+.venv
+ENV/
+env.bak/
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+.tox/
+
+# Jupyter 
+*.ipynb
+!notebook/*.ipynb      
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit & secrets
+.streamlit/
+secrets.toml
+.env
+*.key
+*.pem
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+.cache/
