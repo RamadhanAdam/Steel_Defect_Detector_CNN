@@ -1,0 +1,14 @@
+torch
+torchvision
+albumentations
+optuna
+shap
+grad-cam
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+tqdm
+pillow
+streamlit
